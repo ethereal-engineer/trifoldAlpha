@@ -6,7 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		665353AF180F6C9F006EAD9E /* Mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 665353B0180F6C9F006EAD9E /* Build configuration list for PBXAggregateTarget "Mogenerator" */;
+			buildPhases = (
+				665353B3180F6CB5006EAD9E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Mogenerator;
+			productName = Mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		2AFA18386008440884A8DB9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAF318626D452DA5714F15 /* libPods.a */; };
+		665353AB180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665353A9180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld */; };
+		665353B8180F6DBF006EAD9E /* _TFAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 665353B5180F6DBF006EAD9E /* _TFAMovie.m */; };
+		665353B9180F6DBF006EAD9E /* TFAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 665353B7180F6DBF006EAD9E /* TFAMovie.m */; };
 		66B1C34D180E96EA00E02842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C34C180E96EA00E02842 /* Foundation.framework */; };
 		66B1C34F180E96EA00E02842 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C34E180E96EA00E02842 /* CoreGraphics.framework */; };
 		66B1C351180E96EA00E02842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C350180E96EA00E02842 /* UIKit.framework */; };
@@ -35,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		288869D8786F4A898D891655 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		665353AA180F69B4006EAD9E /* trifoldAlpha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = trifoldAlpha.xcdatamodel; sourceTree = "<group>"; };
+		665353B4180F6DBF006EAD9E /* _TFAMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _TFAMovie.h; path = trifoldAlpha/_TFAMovie.h; sourceTree = "<group>"; };
+		665353B5180F6DBF006EAD9E /* _TFAMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _TFAMovie.m; path = trifoldAlpha/_TFAMovie.m; sourceTree = "<group>"; };
+		665353B6180F6DBF006EAD9E /* TFAMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFAMovie.h; path = trifoldAlpha/TFAMovie.h; sourceTree = "<group>"; };
+		665353B7180F6DBF006EAD9E /* TFAMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFAMovie.m; path = trifoldAlpha/TFAMovie.m; sourceTree = "<group>"; };
+		665353BA180F7FB5006EAD9E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		66B1C349180E96EA00E02842 /* trifoldAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trifoldAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B1C34C180E96EA00E02842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B1C34E180E96EA00E02842 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +80,7 @@
 		66B1C376180E96EA00E02842 /* trifoldAlphaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trifoldAlphaTests-Info.plist"; sourceTree = "<group>"; };
 		66B1C378180E96EA00E02842 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B1C37A180E96EA00E02842 /* trifoldAlphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trifoldAlphaTests.m; sourceTree = "<group>"; };
+		76DAF318626D452DA5714F15 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +91,7 @@
 				66B1C34F180E96EA00E02842 /* CoreGraphics.framework in Frameworks */,
 				66B1C351180E96EA00E02842 /* UIKit.framework in Frameworks */,
 				66B1C34D180E96EA00E02842 /* Foundation.framework in Frameworks */,
+				2AFA18386008440884A8DB9F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +115,7 @@
 				66B1C374180E96EA00E02842 /* trifoldAlphaTests */,
 				66B1C34B180E96EA00E02842 /* Frameworks */,
 				66B1C34A180E96EA00E02842 /* Products */,
+				288869D8786F4A898D891655 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +135,7 @@
 				66B1C34E180E96EA00E02842 /* CoreGraphics.framework */,
 				66B1C350180E96EA00E02842 /* UIKit.framework */,
 				66B1C36E180E96EA00E02842 /* XCTest.framework */,
+				76DAF318626D452DA5714F15 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +149,12 @@
 				66B1C361180E96EA00E02842 /* Main_iPad.storyboard */,
 				66B1C364180E96EA00E02842 /* TFAViewController.h */,
 				66B1C365180E96EA00E02842 /* TFAViewController.m */,
+				665353A9180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld */,
+				665353B4180F6DBF006EAD9E /* _TFAMovie.h */,
+				665353B5180F6DBF006EAD9E /* _TFAMovie.m */,
+				665353B6180F6DBF006EAD9E /* TFAMovie.h */,
+				665353B7180F6DBF006EAD9E /* TFAMovie.m */,
+				665353BA180F7FB5006EAD9E /* README.md */,
 				66B1C367180E96EA00E02842 /* Images.xcassets */,
 				66B1C353180E96EA00E02842 /* Supporting Files */,
 			);
@@ -162,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66B1C37E180E96EA00E02842 /* Build configuration list for PBXNativeTarget "trifoldAlpha" */;
 			buildPhases = (
+				78E5EF5A0739471686862100 /* Check Pods Manifest.lock */,
 				66B1C345180E96EA00E02842 /* Sources */,
 				66B1C346180E96EA00E02842 /* Frameworks */,
 				66B1C347180E96EA00E02842 /* Resources */,
+				4AD2B70D85264C18873AB2A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +260,7 @@
 			targets = (
 				66B1C348180E96EA00E02842 /* trifoldAlpha */,
 				66B1C36C180E96EA00E02842 /* trifoldAlphaTests */,
+				665353AF180F6C9F006EAD9E /* Mogenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +287,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AD2B70D85264C18873AB2A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665353B3180F6CB5006EAD9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/mogenerator -m trifoldAlpha/trifoldAlpha.xcdatamodeld/trifoldAlpha.xcdatamodel -O trifoldAlpha/trifoldAlpha --template-var arc=true";
+		};
+		78E5EF5A0739471686862100 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66B1C345180E96EA00E02842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,7 +340,10 @@
 			files = (
 				66B1C35D180E96EA00E02842 /* TFAAppDelegate.m in Sources */,
 				66B1C366180E96EA00E02842 /* TFAViewController.m in Sources */,
+				665353B9180F6DBF006EAD9E /* TFAMovie.m in Sources */,
 				66B1C359180E96EA00E02842 /* main.m in Sources */,
+				665353AB180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld in Sources */,
+				665353B8180F6DBF006EAD9E /* _TFAMovie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +401,20 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		665353B1180F6C9F006EAD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		665353B2180F6C9F006EAD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		66B1C37C180E96EA00E02842 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,6 +491,7 @@
 		};
 		66B1C37F180E96EA00E02842 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288869D8786F4A898D891655 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -403,6 +505,7 @@
 		};
 		66B1C380180E96EA00E02842 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288869D8786F4A898D891655 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -459,6 +562,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		665353B0180F6C9F006EAD9E /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665353B1180F6C9F006EAD9E /* Debug */,
+				665353B2180F6C9F006EAD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		66B1C344180E96EA00E02842 /* Build configuration list for PBXProject "trifoldAlpha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -475,6 +586,7 @@
 				66B1C380180E96EA00E02842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B1C381180E96EA00E02842 /* Build configuration list for PBXNativeTarget "trifoldAlphaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,8 +595,22 @@
 				66B1C383180E96EA00E02842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		665353A9180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				665353AA180F69B4006EAD9E /* trifoldAlpha.xcdatamodel */,
+			);
+			currentVersion = 665353AA180F69B4006EAD9E /* trifoldAlpha.xcdatamodel */;
+			path = trifoldAlpha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 66B1C341180E96EA00E02842 /* Project object */;
 }
