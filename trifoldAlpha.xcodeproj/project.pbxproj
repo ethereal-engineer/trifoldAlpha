@@ -25,6 +25,7 @@
 		665353AB180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665353A9180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld */; };
 		665353B8180F6DBF006EAD9E /* _TFAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 665353B5180F6DBF006EAD9E /* _TFAMovie.m */; };
 		665353B9180F6DBF006EAD9E /* TFAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 665353B7180F6DBF006EAD9E /* TFAMovie.m */; };
+		66A35F301815192400A1AB34 /* TFAApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A35F2F1815192400A1AB34 /* TFAApiClient.m */; };
 		66B1C34D180E96EA00E02842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C34C180E96EA00E02842 /* Foundation.framework */; };
 		66B1C34F180E96EA00E02842 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C34E180E96EA00E02842 /* CoreGraphics.framework */; };
 		66B1C351180E96EA00E02842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1C350180E96EA00E02842 /* UIKit.framework */; };
@@ -60,6 +61,8 @@
 		665353B6180F6DBF006EAD9E /* TFAMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFAMovie.h; path = trifoldAlpha/TFAMovie.h; sourceTree = "<group>"; };
 		665353B7180F6DBF006EAD9E /* TFAMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFAMovie.m; path = trifoldAlpha/TFAMovie.m; sourceTree = "<group>"; };
 		665353BA180F7FB5006EAD9E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		66A35F2E1815192400A1AB34 /* TFAApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAApiClient.h; sourceTree = "<group>"; };
+		66A35F2F1815192400A1AB34 /* TFAApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAApiClient.m; sourceTree = "<group>"; };
 		66B1C349180E96EA00E02842 /* trifoldAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trifoldAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B1C34C180E96EA00E02842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B1C34E180E96EA00E02842 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,6 +157,8 @@
 				665353B5180F6DBF006EAD9E /* _TFAMovie.m */,
 				665353B6180F6DBF006EAD9E /* TFAMovie.h */,
 				665353B7180F6DBF006EAD9E /* TFAMovie.m */,
+				66A35F2E1815192400A1AB34 /* TFAApiClient.h */,
+				66A35F2F1815192400A1AB34 /* TFAApiClient.m */,
 				665353BA180F7FB5006EAD9E /* README.md */,
 				66B1C367180E96EA00E02842 /* Images.xcassets */,
 				66B1C353180E96EA00E02842 /* Supporting Files */,
@@ -340,6 +345,7 @@
 			files = (
 				66B1C35D180E96EA00E02842 /* TFAAppDelegate.m in Sources */,
 				66B1C366180E96EA00E02842 /* TFAViewController.m in Sources */,
+				66A35F301815192400A1AB34 /* TFAApiClient.m in Sources */,
 				665353B9180F6DBF006EAD9E /* TFAMovie.m in Sources */,
 				66B1C359180E96EA00E02842 /* main.m in Sources */,
 				665353AB180F69B4006EAD9E /* trifoldAlpha.xcdatamodeld in Sources */,
@@ -452,6 +458,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$PROJECT_DIR/**";
 			};
 			name = Debug;
 		};
@@ -485,6 +492,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$PROJECT_DIR/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -569,6 +577,7 @@
 				665353B2180F6C9F006EAD9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B1C344180E96EA00E02842 /* Build configuration list for PBXProject "trifoldAlpha" */ = {
 			isa = XCConfigurationList;
